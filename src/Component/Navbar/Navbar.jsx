@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { MenuItems } from './MenuItem';
 import './Navbar.css';
-import SignUp from '../SignUp/SignUp.jsx';
 
 class Navbar extends Component{
   state = {clicked:false};
@@ -28,7 +27,7 @@ class Navbar extends Component{
           </li>
           )})}
 
-         <Link to="/signup" className="signup-btn">
+         <Link to="/" >
               <button>Sign up</button>
             </Link>
         
