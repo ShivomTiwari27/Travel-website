@@ -59,7 +59,6 @@ src/
 │
 ├───components/       # Reusable components for UI
 ├───pages/            # Different pages like Home, Destinations, About, etc.
-└───styles/           # Global CSS styles and components-specific styles
 ```
 ## Contributing
 
